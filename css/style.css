@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Questrial', sans-serif;
+}
+
+body{
+    background-color: rgb(216, 228, 238);
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.discount{
+    display: inline-flex;
+    background-color: purple;
+    color: white;
+    width: 250px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.discount p{
+    margin-left: 10px;
+}
+
+.laptopPic img{
+    display: flex;
+    margin:auto;
+}
+
+.product_description{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.spec_list{
+    width: 80%;
+    display: flex;
+    margin-left:30px;
+    margin-top: 20px;
+}
