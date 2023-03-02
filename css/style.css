@@ -10,10 +10,9 @@ body{
 }
 .card{
     width: 350px;
-    height: 500px;
     background-color: rgb(255, 255, 255);
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -51,4 +50,72 @@ body{
     display: flex;
     margin-left:30px;
     margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    display: flex;
+}
+
+
+.add_to_cart{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.price{
+    font-size: 15px;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.price del{
+    font-size: 10px;
+    color: rgb(77, 74, 74);
+}
+
+.btn {
+    background-color: #14b9d6;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+
+.add_to_compare{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.add_to_compare_btn {
+    background-color: #666c6d;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
 }
