@@ -119,3 +119,12 @@ body{
     margin-bottom: 10px;
     border-radius: 2px;
 }
+
+.news_link{
+    text-align: center;
+    height: 30px;
+}
+
+.news_link a{
+    padding-bottom: 10px; 
+}
